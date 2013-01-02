@@ -1,0 +1,12 @@
+{
+  "name": "FB Dislike Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add the possibility to dislike your friend's publications",
+  "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com/*"],
+      "js": ["jquery.js","dislike.js"]
+    }
+  ]
+}
